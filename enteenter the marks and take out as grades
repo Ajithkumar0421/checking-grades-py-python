@@ -1,0 +1,14 @@
+#enter input value below 100 and check the grade of input value.
+a=int(input("enter student marks:"))
+
+#below 39 is f grade and vice versa
+if a <= 39:
+  print("your grade is F")
+elif a <= 59 :
+  print("your grade is D")
+elif a <= 74 :
+  print(" yopur grade is C")
+elif a <= 89 :
+  print("your grade is B")
+elif a <= 100 :
+  print ("your grade is a")
